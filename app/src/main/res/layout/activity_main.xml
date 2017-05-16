@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.erpproject.androidapp.takesbic.MainActivity">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btnpicture"-->
+        <!--android:text="Take Picture"-->
+        <!--android:textAllCaps="false"-->
+         <!--/>-->
+
+    <!--<Button-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btndetectpicture"-->
+        <!--android:text="Detect Picture"-->
+        <!--android:textAllCaps="false"-->
+        <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/imageview"-->
+   <!--/>-->
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btntakepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Pic" />
+
+
+    <Button
+        android:id="@+id/btnDetectFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect Face" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgview"/>
+
+</LinearLayout>
+
